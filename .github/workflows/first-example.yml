@@ -7,6 +7,9 @@ jobs:
         - name: welcome message
           run: echo "my first job"
 
+        - name: checkout repo
+          uses: actions/checkout@v4
+
         - name: List files
           run: ls
 
